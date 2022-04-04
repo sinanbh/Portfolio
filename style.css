@@ -60,7 +60,7 @@ body
     left: 20%;
     width: 80%;
     height: 100%;
-    z-index: 110;
+    z-index: 210;
     background-color: #FFFFFF;
     box-shadow: -32px -10px 99px #00000029;
 }
