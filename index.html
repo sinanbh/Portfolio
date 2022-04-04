@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    
+    <header>
+        <nav>
+            <p class="title">MAHAMMADSINAN B H</p>
+            <div class="nav-link">
+                <a class="menu-links" href="">Home</a>
+                <a class="menu-links" href="#about-me">About</a>
+                <a class="menu-links" href="#porfolio">Portfolio</a>
+                <a class="menu-links" href="#resume">Resume</a>
+                <a class="menu-links" href="#contact-me">Contact</a>
+                <span class="material-icons menu" id="" onclick="openMenu()">menu</span>
+            </div>
+            
+        </nav>
+    </header>
+
+    <div class="menu-slide">
+        <span class="material-icons close" onclick="closeMenu()">close</span>
+        <a class="slide-links home" href="">Home</a>
+        <a class="slide-links" href="#about-me" onclick="closeMenu()">About</a>
+        <a class="slide-links" href="#porfolio" onclick="closeMenu()">Portfolio</a>
+        <a class="slide-links" href="#resume" onclick="closeMenu()">Resume</a>
+        <a class="slide-links" href="#contact-me" onclick="closeMenu()">Contact</a>
+    </div>
+
+
+
+
+
+    <div class="container">
+        <div class="left-container">
+            <div class="top">
+                <p class="name">Hi, I am MAHAMMADSINAN B H</p>
+                <p class="job-desc">A Front-end Developer</p>
+                <p class="quote1">Get ready to turn ideas into reality</p>
+            </div>
+
+            <div class="btn">
+                <a href="#contact-me"><button class="hire-btn">Hire Me</button></a>
+                <a href="#resume"><button class="resume-btn">Get Resume</button></a>
+            </div>
+        </div>
+        <div class="right-container">
+            <img class="img1" src="img1.png" alt="">
+        </div>
+        <img class="wave" src="wave.svg" alt="">
+    </div>
+
+
+
+
+    <div class="about-me" id="about-me">
+        <div class="about-left">
+            <img class="img2" src="img3.png" alt="">
+        </div>
+        <div class="about-right">
+            <div class="about-rtop">
+                <p class="sub-head sub-about">About Me</p>
+                <p class="about-text about-absolute-text">
+                    I am a web designer and front-end developer. I'm interested in all kinds of visual communication, but my major focus is on designing web, mobile & tablet interfaces. I also have skills in other fields like branding, icon design or web development. <br><br>
+                    I enjoy turning complex problems into simple, beautiful and intuitive designs. When I'm not pushing pixels, you'll find me cooking, gardening or working out in the park.
+                </p>
+            </div>
+            <div class="about-rbottom">
+                <p class="about-text lang-text">Languages/Library/Technology </p>
+                <div class="lang-logo">
+                    <img src="html.png" alt="" class="languages">
+                    <img src="css.png" alt="" class="languages">
+                    <img src="js.png" alt="" class="languages">
+                    <img src="reactjs-icon.svg" alt="" class="languages">
+                    <img src="icons8-github.svg" alt="" class="languages">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    
+    <div class="sub-head-flex" id="porfolio">
+        <p class="sub-head sec-mar">My Portfolio</p>
+    </div>
+    <div class="porfolio-container" >
+        <div class="portfolio-box">
+            <a href="https://sinanbh.github.io/Projects/Backtracking/index.html" target="_blank">
+                <img class="portfolio-img" src="backtracking.png" alt=""></a>
+        </div>
+        <div class="portfolio-box">
+            <a href="https://sinanbh.github.io/Projects/Todo_UI/index.html" target="_blank">
+                <img class="portfolio-img" src="todo.png" alt=""></a>
+        </div>
+        <div class="portfolio-box">
+            <a href="https://sinanbh.github.io/Projects/Todo_UI_Mobile/index.html" target="_blank">
+                <img class="portfolio-img" src="todomobile.png" alt=""></a>
+        </div>
+        <div class="portfolio-box">
+            <a href="https://sinanbh.github.io/Digital_Clock_UI/" target="_blank">
+                <img class="portfolio-img" src="digitalclock.png" alt=""></a>
+        </div>
+        <div class="portfolio-box">
+            <a href="https://sinanbh.github.io/Projects/Todo_JS/" target="_blank">
+                <img class="portfolio-img" src="todojs.png" alt=""></a>
+        </div>
+    </div>
+
+
+
+    <div class="sub-head-flex" id="resume">
+        <p class="sub-head sec-mar">Resume</p>
+    </div>
+    
+    <div class="resume-container" >
+        <div class="education">
+            <p class="resume-subtitle">Education</p><hr class="edu-hr">
+           
+            <p class="institution">
+                <span class="material-icons dot">fiber_manual_record</span>
+                &nbsp KVGCE, Sullia - <em>B.E Computer Science & Engineering</em></p><br>
+                <span class="year">2018 - 2022</span>
+            <p class="grade">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp CGPA - 8.4</p>
+            <p class="institution">
+                <span class="material-icons dot">fiber_manual_record</span>
+                &nbsp Nehru Memorial College, Sullia - <em>12th</em> </p><br>
+                <span class="year">2017 - 2018</span>
+            <p class="grade">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Percentage - 89.3%</p>
+            <p class="institution">
+                <span class="material-icons dot">fiber_manual_record</span>
+                &nbsp Govt. High School, Elimale - <em>10th</em></p><br>
+                <span class="year">2015 - 2016</span>
+            <p class="grade">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Percentage - 94.24%</p>
+            
+        </div>
+        <div class="resume-img">
+            <img class="img3" src="img2.png" alt="">
+        </div>
+    </div>
+
+
+
+    <div class="sub-head-flex" id="people-say">
+        <p class="sub-head sec-mar">What People say about me</p>
+    </div>
+    
+    <div class="testimonial-container">
+        <div class="people-container">
+            <div class="people">
+                <img class="people-potrait" src="people1.png" alt="">
+                <p class="people-name">Alexander Parkinson</p>
+                <p class="people-about">MyTravel.com</p>
+                <p class="people-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+            </div>
+            <div class="people">
+                <img class="people-potrait" src="people2.png" alt="">
+                <p class="people-name">Alberto Donko</p>
+                <p class="people-about">ScreepApp</p>
+                <p class="people-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+            </div>
+            <div class="people">
+                <img class="people-potrait" src="people3.jpg" alt="">
+                <p class="people-name">Elizabeth Martin</p>
+                <p class="people-about">SaveSpace Inc.</p>
+                <p class="people-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+            </div>
+        </div>
+        <div class="more">
+            <a href="#people-say"><p class="view-more">View more testimonials &nbsp;</p></a>
+            <span class="material-icons arrow">east</span>
+        </div>
+    </div>
+
+
+
+    <div class="sub-head-flex" id="contact-me">
+        <p class="sub-head sec-mar">Contact me</p>
+    </div>
+    
+    <div class="contact-me" >
+        <div class="contact-left">
+            <p class="resume-subtitle">Let's connect</p>
+            <p class="contact-text">Hey there I'm always up for a chat. My inbox is always open. Whether you have a question or just want to say hi, I'll try my best to get back to you!</p>
+            <p class="contact-mail">
+                <span class="material-icons">mail_outline</span>
+                &nbsp msbh1011@gmail.com</p>
+            <p class="contact-call">
+                <span class="material-icons">call</span>
+                &nbsp 6362815313</p>
+            <p class="contact-loc">
+                <span class="material-icons">location_on</span>
+                &nbsp Elimale, Sullia, D.K dist. Karnataka - 574248</p>
+        </div>
+        <div class="contact-right">
+            <form action="">
+                <p class="resume-subtitle">Send me a message</p>
+                <label for="name">Full Names <span style="color: red;"> *</span></label><br>
+                <input type="text" name="" id="name"><br>
+                <label for="num">Phone Number <span style="color: red;"> *</span></label><br>
+                <input type="text" name="" id="num"><br>
+                <label for="addr">E-mail Address <span style="color: red;"> *</span></label><br>
+                <input type="text" name="" id="addr"><br>
+                <label for="msg">Message <span style="color: red;"> *</span></label><br>
+                <textarea name="" id="msg" cols="" rows="5" placeholder="Your message here..."></textarea><br>
+                <button class="send-btn">Send Message</button>
+            </form>
+        </div>
+    </div>
+
+
+    <footer>
+        © 2021 Mahammadsinan B H. All rights reserved.
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
